@@ -15,7 +15,7 @@ A simple Python-powered Slack bot, using [the Cat Facts API](https://catfacts-ap
     * `export CATFACT_BOT_TRIGGER_STRING="cat"`
     * `export CATFACT_BOT_TARGET_USER_ID="U1234Q03D:`
     * `export CATFACT_BOT_ID="U1234Q03D"`
-7. start the bot
+7. start the bot (you should see the bot user become 'active' in slack)
     * `python starterbot.py`
 
 [the starterbot tutorial](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
