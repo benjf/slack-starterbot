@@ -37,11 +37,11 @@ def get_cat_fact():
     :return: String
     """
 
-    url = 'http://catfacts-api.appspot.com/api/facts?number=1'
+    url = 'https://catfact.ninja/fact'
     response = json.load(urllib2.urlopen(url))
 
-    if response['success'] == "true":
-        return response['facts'][0]
+    if response['length'] > 0:
+        return response['fact']
 
     else:
         return 'Kitty loves you'
